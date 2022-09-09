@@ -1,0 +1,29 @@
+﻿<Window x:Class="BabaYaga.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BabaYaga"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="Aqua"></Grid>
+        <Grid Background="Black" Margin="149,-1,-639,1"/>
+        <Image x:Name="i_jpg" Grid.Column="0" Source="i.jpg" VerticalAlignment="Center" Margin="-262,34,-924,1" Height="384" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.21"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-2.449"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock Margin="7,1,-7,-1"> BabaYaga</TextBlock>
+        <Label Foreground="White" Margin="147,-5,-147,5" >BabaYaga</Label>
+        <Button Click="Bth_Click" Height="25" Background="White">Это кнопка</Button>
+    </Grid>
+</Window>
