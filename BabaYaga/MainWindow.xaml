@@ -9,10 +9,25 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="23*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label FontSize="40" Margin="10,10,10,10" FontWeight="SemiBold" Content="Text" Grid.ColumnSpan="2"></Label>
+            <Grid Background="Green" Height="15" VerticalAlignment="Bottom" Margin="10,0,10,10" Grid.ColumnSpan="2"></Grid>
+
+            <Frame x:Name="MainFrame" Navigated="MainFrame_Navigated" Margin="8,90,-8,10" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        </Grid>
         <Grid Grid.Column="0" Background="Aqua"></Grid>
-        <Grid Background="Black" Margin="149,-1,-639,1"/>
-        <Image x:Name="i_jpg" Grid.Column="0" Source="i.jpg" VerticalAlignment="Center" Margin="-262,34,-924,1" Height="384" RenderTransformOrigin="0.5,0.5">
+        <Image  x:Name="i_jpg" Source="i.jpg" VerticalAlignment="Top" Margin="-4,33,5,0" Height="184" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,8 +37,13 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
+
         <TextBlock Margin="7,1,-7,-1"> BabaYaga</TextBlock>
         <Label Foreground="White" Margin="147,-5,-147,5" >BabaYaga</Label>
-        <Button Click="Bth_Click" Height="25" Background="White">Это кнопка</Button>
+        <StackPanel VerticalAlignment="Center">
+            <Button Click="Button_Click" Height="25" Background="White">Инфо</Button>
+            <Button Click="Button_Click_1" Height="25" Background="White" >СИЗ</Button>
+            <Button Click="Button_Click_2" Height="25" Background="White" >Инструменты</Button>
+        </StackPanel>
     </Grid>
 </Window>

@@ -29,3 +29,11 @@ C:\Users\Администратор\source\repos\BabaYaga\BabaYaga\obj\Debug\Bab
 \\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\BabaYaga.Properties.Resources.resources
 \\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\BabaYaga.csproj.GenerateResource.cache
 \\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\BabaYaga.csproj.CoreCompileInputs.cache
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\Instrument.g.cs
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\Page1.g.cs
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\отрасль.g.cs
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\Instrument.baml
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\Page1.baml
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\отрасль.baml
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\Robo.g.cs
+\\Pdc\студенты\205\205 I\Аборина Даша\BabaYaga\BabaYaga\obj\Debug\Robo.baml

@@ -27,6 +27,36 @@ namespace BabaYaga
 
         private void Bth_Click(object sender, RoutedEventArgs e)
         {
+            MainFrame.Navigate(new отрасль());
+            // Manager.MainFrame = MainFrame;
+        }
+        private void BtnInstr_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Instrument());
+        }
+
+        private void Instrument(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new BabaYaga.Robo());
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new BabaYaga.Instrument());
+        }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
 
         }
     }
